@@ -1,0 +1,71 @@
+.nav-item{
+	text-transform: uppercase;
+	padding-left: 10px;
+	background-color: #000000;
+	border: none;
+	color: white;
+}
+
+.nav-login{
+	text-transform: uppercase;
+	padding-left: 10px;
+	background-color: #DA291C;
+	border: none;
+	color: white;
+	position: absolute;
+	right: 20px;
+	float: right;
+}
+
+.login{
+	margin-left: 
+}
+
+.sponsor{
+	position: absolute;
+	right: 20px;
+	float: right;
+}
+
+.nav-image{
+	margin-left: 30px;
+
+}
+
+.footer-copyright{
+	background-color: #000000;
+}
+
+.page-footer{
+	background-color: #0f0f0f;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+

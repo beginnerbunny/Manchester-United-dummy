@@ -1,0 +1,114 @@
+* {box-sizing: border-box}
+
+#Boxes{
+  margin-top: 20px;
+  margin-left: 120px;
+
+}
+
+#Boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#Boxes .box img{
+  width: 230px;
+  min-height: 150px;
+  transform: scale(1);
+}
+
+.product-container {
+float: left;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.image{
+  height: 400px;
+  width: 250px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  border-radius: 20px;
+}
+.text1 {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-family: 'Arvo';
+}
+.Review_container:hover .overlay{
+  opacity: 1;
+}
+
+.Review_container:hover .image{
+  transform: scale(1.1);
+  filter: brightness(0.4);
+}
+
+.main-col{
+  text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-size: 17px;
+}
+
+.page-title{
+  font-family: 'Franklin Gothic Heavy';
+  color: black;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table{
+  background-color: #35424a;
+  color: white;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+td,th{
+  border: 2px solid #e8491d;
+  border-radius: 5px;
+  height: 75px;
+  transition: all;
+}
+th{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+td{
+  
+  font-weight: bold;
+  text-align: center;
+}
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #e8491d;
+  text-align: center;
+
+}
